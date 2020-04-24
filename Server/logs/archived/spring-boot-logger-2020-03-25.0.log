@@ -1,0 +1,83 @@
+2020-03-25 17:08:48,914 INFO docu.journal.controller.Controller [http-nio-8080-exec-2] Server successfully returned get request
+2020-03-25 17:40:19,086 INFO org.springframework.boot.StartupInfoLogger [main] Starting JournalApplication on DESKTOP-1UEFQIU with PID 14060 (D:\DOCUMASTER\task\journal\target\classes started by Nick in D:\DOCUMASTER\task\journal)
+2020-03-25 17:40:19,092 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-25 17:40:19,681 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-03-25 17:40:19,713 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30ms. Found 1 MongoDB repository interfaces.
+2020-03-25 17:40:20,055 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-25 17:40:20,061 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-25 17:40:20,061 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-25 17:40:20,061 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:40:20,123 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-25 17:40:20,123 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 988 ms
+2020-03-25 17:40:20,280 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-25 17:40:20,280 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Adding discovered server localhost:27017 to client view of cluster
+2020-03-25 17:40:20,335 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5e7b7b6439e6184302241a3b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:87}] to localhost:27017
+2020-03-25 17:40:20,339 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5e7b7b6439e6184302241a3b', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1903800}
+2020-03-25 17:40:20,340 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5e7b7b6439e6184302241a3b', description='null'}-localhost:27017] Discovered cluster type of STANDALONE
+2020-03-25 17:40:20,737 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:40:20,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-25 17:40:20,930 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 17:40:20,932 INFO org.springframework.boot.StartupInfoLogger [main] Started JournalApplication in 2.171 seconds (JVM running for 2.815)
+2020-03-25 17:40:27,274 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 17:40:27,274 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-03-25 17:40:27,287 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 13 ms
+2020-03-25 17:40:27,307 ERROR docu.journal.controller.Controller [http-nio-8080-exec-2] Could not display data at page 0 does as pages start from 1
+2020-03-25 17:40:27,307 INFO docu.journal.controller.Controller [http-nio-8080-exec-2] Server successfully returned get request
+2020-03-25 17:40:34,186 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-3] Opened connection [connectionId{localValue:2, serverValue:88}] to localhost:27017
+2020-03-25 17:40:34,254 INFO docu.journal.controller.Controller [http-nio-8080-exec-3] Server successfully returned get request
+2020-03-25 17:40:53,408 INFO docu.journal.controller.Controller [http-nio-8080-exec-7] Server successfully performed Post request
+2020-03-25 17:40:53,433 INFO docu.journal.controller.Controller [http-nio-8080-exec-6] Server successfully performed Post request
+2020-03-25 17:40:53,440 INFO docu.journal.controller.Controller [http-nio-8080-exec-4] Server successfully performed Post request
+2020-03-25 17:40:53,460 INFO docu.journal.controller.Controller [http-nio-8080-exec-8] Server successfully performed Post request
+2020-03-25 17:40:53,468 INFO docu.journal.controller.Controller [http-nio-8080-exec-9] Server successfully performed Post request
+2020-03-25 17:40:53,503 INFO docu.journal.controller.Controller [http-nio-8080-exec-10] Server successfully performed Post request
+2020-03-25 17:40:53,509 INFO docu.journal.controller.Controller [http-nio-8080-exec-1] Server successfully performed Post request
+2020-03-25 17:40:53,516 INFO docu.journal.controller.Controller [http-nio-8080-exec-2] Server successfully performed Post request
+2020-03-25 17:40:53,522 INFO docu.journal.controller.Controller [http-nio-8080-exec-3] Server successfully performed Post request
+2020-03-25 17:40:53,529 INFO docu.journal.controller.Controller [http-nio-8080-exec-7] Server successfully performed Post request
+2020-03-25 17:40:53,536 INFO docu.journal.controller.Controller [http-nio-8080-exec-5] Server successfully performed Post request
+2020-03-25 17:40:53,543 INFO docu.journal.controller.Controller [http-nio-8080-exec-6] Server successfully performed Post request
+2020-03-25 17:40:53,548 INFO docu.journal.controller.Controller [http-nio-8080-exec-4] Server successfully performed Post request
+2020-03-25 17:40:56,777 INFO docu.journal.controller.Controller [http-nio-8080-exec-8] Server successfully returned get request
+2020-03-25 19:12:54,951 INFO org.springframework.boot.StartupInfoLogger [main] Starting JournalApplication on DESKTOP-1UEFQIU with PID 18820 (D:\DOCUMASTER\task\journal\target\classes started by Nick in D:\DOCUMASTER\task\journal)
+2020-03-25 19:12:54,968 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-25 19:12:55,466 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-03-25 19:12:55,500 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31ms. Found 1 MongoDB repository interfaces.
+2020-03-25 19:12:55,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-25 19:12:55,980 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-25 19:12:55,980 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-25 19:12:55,981 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 19:12:56,073 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-25 19:12:56,073 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1068 ms
+2020-03-25 19:12:56,300 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-25 19:12:56,301 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Adding discovered server localhost:27017 to client view of cluster
+2020-03-25 19:12:56,528 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5e7b9118957172788cddc8cb', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:89}] to localhost:27017
+2020-03-25 19:12:56,532 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5e7b9118957172788cddc8cb', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2012900}
+2020-03-25 19:12:56,533 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5e7b9118957172788cddc8cb', description='null'}-localhost:27017] Discovered cluster type of STANDALONE
+2020-03-25 19:12:56,741 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 19:12:56,923 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-25 19:12:56,936 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 19:12:56,938 INFO org.springframework.boot.StartupInfoLogger [main] Started JournalApplication in 2.291 seconds (JVM running for 3.083)
+2020-03-25 19:13:02,188 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 19:13:02,189 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-25 19:13:02,200 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2020-03-25 19:13:02,247 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8080-exec-1] Opened connection [connectionId{localValue:2, serverValue:90}] to localhost:27017
+2020-03-25 19:13:02,287 ERROR docu.journal.controller.Controller [http-nio-8080-exec-1] Could not display data as page 1 does not exist
+2020-03-25 19:13:02,288 INFO docu.journal.controller.Controller [http-nio-8080-exec-1] Server successfully returned get request
+2020-03-25 19:13:07,862 ERROR docu.journal.controller.Controller [http-nio-8080-exec-4] Could not display data at page 0 does as pages start from 1
+2020-03-25 19:13:07,862 INFO docu.journal.controller.Controller [http-nio-8080-exec-4] Server successfully returned get request
+2020-03-25 19:13:53,774 INFO docu.journal.controller.Controller [http-nio-8080-exec-5] Server successfully performed Post request
+2020-03-25 19:13:53,788 INFO docu.journal.controller.Controller [http-nio-8080-exec-6] Server successfully performed Post request
+2020-03-25 19:13:53,796 INFO docu.journal.controller.Controller [http-nio-8080-exec-2] Server successfully performed Post request
+2020-03-25 19:13:53,804 INFO docu.journal.controller.Controller [http-nio-8080-exec-8] Server successfully performed Post request
+2020-03-25 19:13:53,813 INFO docu.journal.controller.Controller [http-nio-8080-exec-9] Server successfully performed Post request
+2020-03-25 19:13:53,822 INFO docu.journal.controller.Controller [http-nio-8080-exec-10] Server successfully performed Post request
+2020-03-25 19:13:53,831 INFO docu.journal.controller.Controller [http-nio-8080-exec-3] Server successfully performed Post request
+2020-03-25 19:13:53,837 INFO docu.journal.controller.Controller [http-nio-8080-exec-1] Server successfully performed Post request
+2020-03-25 19:13:53,844 INFO docu.journal.controller.Controller [http-nio-8080-exec-4] Server successfully performed Post request
+2020-03-25 19:13:53,850 INFO docu.journal.controller.Controller [http-nio-8080-exec-5] Server successfully performed Post request
+2020-03-25 19:13:53,856 INFO docu.journal.controller.Controller [http-nio-8080-exec-7] Server successfully performed Post request
+2020-03-25 19:13:53,861 INFO docu.journal.controller.Controller [http-nio-8080-exec-6] Server successfully performed Post request
+2020-03-25 19:13:53,868 INFO docu.journal.controller.Controller [http-nio-8080-exec-2] Server successfully performed Post request
+2020-03-25 19:13:53,874 INFO docu.journal.controller.Controller [http-nio-8080-exec-8] Server successfully performed Post request
+2020-03-25 19:13:58,367 INFO docu.journal.controller.Controller [http-nio-8080-exec-9] Server successfully returned get request
