@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<journal>
+  <entry>
+    <class>
+      <classIdent>01</classIdent>
+      <title>Class 01</title>
+    </class>
+    <caseFile>
+      <caseYear>2015</caseYear>
+      <caseSequenceNumber>10</caseSequenceNumber>
+      <title>Kindergarten application John Smith</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2015</recordYear>
+      <recordSequenceNumber>56</recordSequenceNumber>
+      <recordNumber>2</recordNumber>
+      <title>Application form John Smith</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2015-01-11</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>David Smith</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>03</classIdent>
+      <title>Class 03</title>
+    </class>
+    <caseFile>
+      <caseYear>2015</caseYear>
+      <caseSequenceNumber>52</caseSequenceNumber>
+      <title>Kindergarten X public spending</title>
+      <publicTitle></publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2015</recordYear>
+      <recordSequenceNumber>51</recordSequenceNumber>
+      <recordNumber>2</recordNumber>
+      <title>Citizen inquiry regarding public spending</title>
+      <publicTitle></publicTitle>
+      <recordDate>2015-03-10</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>John Doe</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X director</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X financial lead</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>48</caseSequenceNumber>
+      <title>Kindergarten application Jane Smith</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>49</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Jane Smith</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-02-11</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>Lidia Smith</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>60</caseSequenceNumber>
+      <title>Kindergarten application Theodor Jones</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>90</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Theodor Jones</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-02-12</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>Marsha Jones</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>61</caseSequenceNumber>
+      <title>Kindergarten application Harry Johnson</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>95</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Harry Johnson</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-02-15</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>William Johnson</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>63</caseSequenceNumber>
+      <title>Kindergarten application Thomas Gabriel</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>101</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Thomas Gabriel</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-02-18</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>Peter Gabriel</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>67</caseSequenceNumber>
+      <title>Kindergarten application Jack Brown</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>101</recordSequenceNumber>
+      <recordNumber>2</recordNumber>
+      <title>Application form Jack Brown</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-03-12</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>William Brown</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>71</caseSequenceNumber>
+      <title>Kindergarten application Jake Barnes</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>130</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Jake Barnes</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-03-15</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>William Barnes</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>75</caseSequenceNumber>
+      <title>Kindergarten application Jack Hill</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>141</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Jack Hill</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-03-17</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>William Hill</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>77</caseSequenceNumber>
+      <title>Kindergarten application Michael Reed</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>152</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Michael Reed</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-03-19</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>Olivia Reed</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>80</caseSequenceNumber>
+      <title>Kindergarten application Emily Thompson</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>161</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Emily Thompson</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-03-20</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>Jessica Thompson</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>85</caseSequenceNumber>
+      <title>Kindergarten application Susan Miller</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>172</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Susan Miller</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-03-22</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>Thomas Miller</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>89</caseSequenceNumber>
+      <title>Kindergarten application Barbara Powell</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>177</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Barbara Powell</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-03-23</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>John Powell</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+  <entry>
+    <class>
+      <classIdent>05</classIdent>
+      <title>Class 05</title>
+    </class>
+    <caseFile>
+      <caseYear>2016</caseYear>
+      <caseSequenceNumber>95</caseSequenceNumber>
+      <title>Kindergarten application Elisabeth Jenkins</title>
+      <publicTitle>Kindergarten application *****</publicTitle>
+    </caseFile>
+    <record>
+      <recordYear>2016</recordYear>
+      <recordSequenceNumber>185</recordSequenceNumber>
+      <recordNumber>1</recordNumber>
+      <title>Application form Elisabeth Jenkins</title>
+      <publicTitle>Application form *****</publicTitle>
+      <recordDate>2016-03-24</recordDate>
+      <parties>
+        <party>
+          <partyType>sender</partyType>
+          <partyName>Robert Jenkins</partyName>
+        </party>
+        <party>
+          <partyType>recipient</partyType>
+          <partyName>Kindergarten X</partyName>
+        </party>
+      </parties>
+    </record>
+  </entry>
+</journal>

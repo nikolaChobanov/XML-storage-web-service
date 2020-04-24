@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="journal">
+    <xs:annotation>
+      <xs:documentation>journal of records</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="1" name="entry">
+          <xs:annotation>
+            <xs:documentation>entry in the journal</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="class">
+                <xs:annotation>
+                  <xs:documentation>Classes are used to classify (tag) case files in order to facilitate their retrieval.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="classIdent" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>human-readable identifier of the class</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="title" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>class title</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="caseFile">
+                <xs:annotation>
+                  <xs:documentation>groups related records pertaining to a citizen inquiry or request</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="caseYear" type="xs:int">
+                      <xs:annotation>
+                        <xs:documentation>year in which the case file was created</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="caseSequenceNumber" type="xs:int">
+                      <xs:annotation>
+                        <xs:documentation>sequential number of the case file in the year when the case file was created</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="title" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>case file title (may contain sensitive data)</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="publicTitle" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>case file public title (if empty, the field `title` must be used instead when publishing)</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="record">
+                <xs:annotation>
+                  <xs:documentation>represents one or more documents exchanged between a citizen and an institution (in a single transaction)</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="recordYear" type="xs:int">
+                      <xs:annotation>
+                        <xs:documentation>year in which the record was created</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="recordSequenceNumber" type="xs:int">
+                      <xs:annotation>
+                        <xs:documentation>sequential number of the record in the year when the record was created</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="recordNumber" type="xs:int">
+                      <xs:annotation>
+                        <xs:documentation>sequential number of the record in the case file it belongs to</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="title" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>record title (may contain sensitive data)</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="publicTitle" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>record public title (if empty, the field `title` must be used instead when publishing)</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="recordDate" type="xs:date">
+                      <xs:annotation>
+                        <xs:documentation>record creation date (not a timestamp)</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="parties">
+                      <xs:annotation>
+                        <xs:documentation>list of parties which participated in the communication (that led to the creation of the record)</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" minOccurs="1" name="party">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="partyType">
+                                  <xs:annotation>
+                                    <xs:documentation></xs:documentation>
+                                  </xs:annotation>
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration value="sender"/>
+                                      <xs:enumeration value="recipient"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="partyName" type="xs:string">
+                                  <xs:annotation>
+                                    <xs:documentation>name of a person, institution, etc.</xs:documentation>
+                                  </xs:annotation>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
